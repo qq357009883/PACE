@@ -45,6 +45,4 @@ PACE outperforms fixed-depth Transformers on complexity诅咒, Sudoku, CLRS algo
 
 ---
 
-## ⚡ Fun fact
 
-PACE's 1B model achieves effective reasoning capability comparable to 3B-5B Transformers, with **zero catastrophic forgetting** in online learning.
