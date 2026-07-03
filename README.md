@@ -1,18 +1,50 @@
-# PACE: Cognitive Architecture
+# 👋 Hi, I'm 蒋晨浩
 
-**Author**: 蒋晨浩 (Jiang Chenhao)
-**Email**: natejiangchenhao@gmail.com
-**GitHub**: [qq357009883](https://github.com/qq357009883)
+I'm an **independent researcher** focused on building non-Transformer cognitive architectures that can **reason deeply, simulate physics, and understand causality**.
 
-## Overview
-PACE is a non-Transformer cognitive architecture that performs adaptive-depth iterative reasoning, world modeling, and causal inference.
+---
 
-## Key Results
-- CLRS algorithmic reasoning: 1.000 vs Transformer 0.635 (OOD n=16→64)
-- Sudoku hard: 0.424 vs 0.003
-- 3D spring network: error 0.0008 @ 40 steps
-- Hénon-Heiles chaotic system: error tracks true divergence
-- Causal do-operator: observe 0.855 vs do 0.017
+## 🔭 What I'm working on
 
-## Paper
-(If you have a paper draft, you can link it here or mention it is in preparation for TMLR)
+**PACE** — a cognitive architecture built on:
+- **Adaptive iterative reasoning** (depth scales with problem difficulty)
+- **Externalized knowledge** (skills in weights, facts in memory)
+- **White-box explainability** (every reasoning step is traceable)
+- **World modeling + causal inference** in a unified shared core
+
+PACE outperforms fixed-depth Transformers on complexity诅咒, Sudoku, CLRS algorithmic reasoning, physical simulation (3D spring networks), and chaotic systems (Hénon-Heiles).
+
+---
+
+## 🧠 Research interests
+
+- Cognitive architectures / AGI
+- Iterative reasoning & adaptive computation
+- World models & physical simulation
+- Causal inference (do-operator, counterfactuals)
+- Non-Transformer architectures
+
+---
+
+## 📄 Selected results
+
+| Benchmark | PACE vs Transformer |
+|-----------|---------------------|
+| CLRS algorithmic reasoning | 1.000 vs 0.635 (n=16→64 OOD) |
+| Sudoku (hard) | 0.424 vs 0.003 |
+| 3D spring network | 0.0008 error @ 40 steps |
+| Hénon-Heiles chaotic system | error tracks true divergence |
+| Causal do-operator | observe 0.855 vs do 0.017 |
+
+---
+
+## 📫 How to reach me
+
+- Email: natejiangchenhao@gmail.com
+- GitHub: [https://github.com/qq357009883/PACE](https://github.com/qq357009883/PACE)
+
+---
+
+## ⚡ Fun fact
+
+PACE's 1B model achieves effective reasoning capability comparable to 3B-5B Transformers, with **zero catastrophic forgetting** in online learning.
